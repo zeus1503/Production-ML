@@ -1,0 +1,19 @@
+Hi ${NAME},
+
+Good news! O'Reilly has a binderhub solution for jupyter notebooks. O'Reilly's BinderHub installation works like mybinder.org (which can open any publicly accessible repo), except O'Reilly's only opens repos in the private GitLab https://resources.oreilly.com/.
+
+We can also use this method to preview notebooks before they are published (to get the final version on the platform requires ingestion steps).
+
+Here is your repo: https://resources.oreilly.com/binderhub/${COURSE}.git
+and here is the URL: https://new-content.binderhub-dev.gcp.oreilly.com/v2/gl/binderhub%2f${COURSE}/master
+
+Whatever works in this test environment will work on platform. There are no GPUs.
+
+If you want to preview the repo, update the master branch in GitLab, then use the URL to start a new BinderHub pod. Note that you can’t simply reload the BinderHub pod you previously started, as the pod will only use the version of the notebook that was in GitLab at the time it started.
+
+To view, you will have to be signed on to learning.oreilly.com.
+
+If you have any questions, please don't hesitate to ask.
+
+Kind regards,
+${SENDER}
