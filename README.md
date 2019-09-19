@@ -1,4 +1,4 @@
-# ${COURSE TITLE GOES HERE}
+# ${Deploy Machine Learning Projects in Production with Open Standard Models}
 
 ![Powered by Jupyter Logo](https://cdn.oreillystatic.com/images/icons/powered_by_jupyter.png)
 
